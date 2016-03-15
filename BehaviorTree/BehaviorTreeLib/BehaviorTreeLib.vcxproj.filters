@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Sources\behavior_factory.cpp" />
+    <ClCompile Include="Sources\behavior_tree.cpp" />
+    <ClCompile Include="Sources\composite_node.cpp" />
+    <ClCompile Include="Sources\data_context.cpp" />
+    <ClCompile Include="Sources\decorator_node.cpp" />
+    <ClCompile Include="Sources\inverter_node.cpp" />
+    <ClCompile Include="Sources\leaf_node.cpp" />
+    <ClCompile Include="Sources\node.cpp" />
+    <ClCompile Include="Sources\observable.cpp" />
+    <ClCompile Include="Sources\parallel_node.cpp" />
+    <ClCompile Include="Sources\repeater_node.cpp" />
+    <ClCompile Include="Sources\selector_node.cpp" />
+    <ClCompile Include="Sources\sequence_node.cpp" />
+    <ClCompile Include="Sources\succeeder_node.cpp" />
+    <ClCompile Include="Sources\until_fail_node.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\composite_nodes\composite_nodes.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\composite_nodes\parallel_node.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\composite_nodes\selector_node.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\composite_nodes\sequence_node.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\decorator_nodes\decorator_nodes.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\decorator_nodes\inverter_node.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\decorator_nodes\repeater_node.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\decorator_nodes\succeeder_node.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\decorator_nodes\until_fail_node.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\composite_node.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\decorator_node.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\leaf_node.h" />
+    <ClInclude Include="ai\behavior_tree\nodes\nodes.h" />
+    <ClInclude Include="ai\behavior_tree\behavior_tree.h" />
+    <ClInclude Include="ai\behavior_tree\node.h" />
+    <ClInclude Include="ai\behavior.h" />
+    <ClInclude Include="ai\behavior_factory.h" />
+    <ClInclude Include="data_context.h" />
+    <ClInclude Include="observer.h" />
+  </ItemGroup>
+</Project>
